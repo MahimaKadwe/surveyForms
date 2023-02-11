@@ -144,12 +144,11 @@ width :fit-content;
 }
 
 .example-container1{
-background-color:blue;
+
 width:500px;
 }
 
-.example-box{
-background-color: blue;
+.example-box{ 
 width:500px;
 justify-content: center;
 font-family:'Times New Roman', Times, serif ;
@@ -158,3 +157,15 @@ font-family:'Times New Roman', Times, serif ;
 body{
 background-image: url(https://wallpaperaccess.com/full/1771974.jpg);
 }
+
+input {
+    background-color: transparent;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top : 35px;
+  }
