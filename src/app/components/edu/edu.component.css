@@ -22,6 +22,9 @@
         margin-top: 50px;
         justify-content: center;
         align-items: center;
+        text-align: center;
+         margin: auto;
+        display: inline-block;
     }
 
     button.ques{
@@ -179,3 +182,15 @@ margin-left: 1;
   body{
     background-image: url(https://wallpaperaccess.com/full/1771974.jpg);
   }
+
+input {
+  background-color: transparent;
+  width: auto;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top : 35px;
+}
