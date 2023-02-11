@@ -1,0 +1,60 @@
+h1{
+    color : rgb(42, 11, 11);
+    padding: 70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color : darkgreen;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color : black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    color: darkblue;
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    size-adjust: 100px;
+}
+
+h4{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: lightgreen;
+    color: black;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+   background-color : rgb(32, 14, 14); 
+}
+
+btn btn-primary btn-block mt-4 w-100{
+    color : blue;
+}
+
+

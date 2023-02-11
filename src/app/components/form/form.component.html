@@ -1,0 +1,17 @@
+<p>form works!</p>
+<div class="example-container">
+    <h2>Form</h2>
+
+    <div
+      cdkDropList
+      class="example-list"
+      [cdkDropListData]="done"
+      (cdkDropListDropped)="drop($event)">
+      <div class="example-box" *ngFor="let item of currentContainer" cdkDrag>
+
+        <app-input *ngIf="item === 'Input'"></app-input>
+        <app-radio *ngIf="item === 'Radio'"></app-radio>
+        <app-checkbox *ngIf="item === 'Checkbox'"></app-checkbox>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,75 @@
+h1{
+    color : black;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image:url("https://images.pexels.com/photos/785405/pexels-photo-785405.jpeg?cs=srgb&dl=pexels-alex-dayawon-785405.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    width :cover;
+    margin-bottom: 50px;
+}
+
+    h1{
+        color : white;
+        padding: 5px;
+        text-align:left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+h2{
+    color : black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+button{
+    color: black;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    border-radius: 10px;
+}
+
+button.edu {
+    background-color:transparent;
+}
+
+button.tech{
+    background-color:transparent;
+}
+
+button.emp {
+    background-color:transparent;
+}
+
+button.cst {
+    background-color:transparent;
+}
+
+button.oth {
+    background-color:transparent;
+}
+
+button.hlt {
+    background-color:transparent;
+}
+
+routerLink{
+    color:black;
+    text-decoration: none;
+}
