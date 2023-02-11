@@ -144,13 +144,14 @@ width :fit-content;
 }
 
 .example-container1{
-background-color:transparent;
+background-color:blue;
 width:500px;
 }
 
 .example-box{
-background-color: transparent;
+background-color: blue;
 width:500px;
+justify-content: center;
 font-family:'Times New Roman', Times, serif ;
 }
 

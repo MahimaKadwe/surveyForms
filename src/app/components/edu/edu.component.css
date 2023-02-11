@@ -160,7 +160,16 @@ margin-left: 1;
     background-color:transparent;
     width:500px;
   }
-  
+
+  .example-container{
+    background-color:transparent;
+    width : auto;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px;
+  }
+
   .example-box{
     background-color: transparent;
     width:500px;

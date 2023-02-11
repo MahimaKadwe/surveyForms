@@ -4,9 +4,20 @@
   
   .example-margin {
     margin: 0 12px;
+    background-color: lightgrey ;
+    padding: 5px;
   }
   
   ul {
     list-style-type: none;
     margin-top: 4px;
   }
+
+  input {
+    background-color: white;
+    width : 200px;
+font-family: 'Times New Roman', Times, serif;
+tab-size: 30px;
+  }
+
+
