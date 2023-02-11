@@ -16,7 +16,10 @@
         color: black;
         font-family: 'Times New Roman', Times, serif;
         margin-right: 50px;
-        border-radius: 10px;
+        margin-left: 50px;
+
+        
+        border-radius: 0x;
         display: inline-block;
         align-self:auto;
         margin-top: 50px;
