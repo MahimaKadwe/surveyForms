@@ -1,7 +1,7 @@
 .example-form {
     min-width: 150px;
-    max-width: 500px;
-    width: fit-content;
+    max-width: 1000px;
+    width: 1000px;
   }
   
   .example-full-width {
@@ -10,5 +10,5 @@
 
   input {
     background-color:white ;
-    width : 500px;
+    width :fit-content;
   }

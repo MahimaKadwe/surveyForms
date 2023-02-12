@@ -8,19 +8,21 @@ import { EduComponent } from './components/edu/edu.component';
 import { HltComponent } from './components/hlt/hlt.component';
 import { OthComponent } from './components/oth/oth.component';
 import { TextboxComponent } from './components/textbox/textbox.component';
-import { FormComponent } from './components/form/form.component';
 import { CstComponent } from './components/cst/cst.component';
+import { ConcludeComponent } from './components/conclude/conclude.component';
+import { ResponseComponent } from './components/response/response.component';
+import { SettingComponent } from './components/setting/setting.component';
+
 
 const routes: Routes = [
  
-  
   {path: 'server', component: ServerComponent},
   {path: '', redirectTo:'signup', pathMatch: 'full'},
   {path: 'signup', component: SignupComponent},
   {path: '', redirectTo:'edu', pathMatch: 'full'},
   {path: 'edu', component: EduComponent},
-  {path: '', redirectTo:'form', pathMatch: 'full'},
-  {path: 'form', component: FormComponent},
+  {path: '', redirectTo:'conclude', pathMatch: 'full'},
+  {path: 'conclude', component: ConcludeComponent},
   {path: 'signup', component: SignupComponent},
   {path: '', redirectTo: 'hlt', pathMatch: 'full'}, 
   {path: 'hlt', component: HltComponent},
@@ -36,7 +38,42 @@ const routes: Routes = [
   {path: 'signup', component: SignupComponent},
   {path: '', redirectTo:'tech', pathMatch: 'full'}, 
   {path: 'tech', component: TechComponent},
-
+  {path: 'edu', component: EduComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'emp', component: EmpComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'oth', component: OthComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'cst', component: CstComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'hlt', component: HltComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'tech', component: TechComponent},
+  {path: '', redirectTo:'response', pathMatch: 'full'},
+  {path: 'response', component: ResponseComponent},
+  {path: 'edu', component: EduComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent},
+  {path: 'emp', component: EmpComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent},
+  {path: 'oth', component: OthComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent},
+  {path: 'cst', component: CstComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent},
+  {path: 'hlt', component: HltComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent},
+  {path: 'tech', component: TechComponent},
+  {path: '', redirectTo:'setting', pathMatch: 'full'},
+  {path: 'setting', component: SettingComponent}, 
 ];
 
 @NgModule({

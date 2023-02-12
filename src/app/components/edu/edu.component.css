@@ -6,7 +6,7 @@
         font-family: 'Times New Roman', Times, serif;
         margin-right: 50px;
         margin-left: 50px;
-        border-radius: 0x;
+       
         display: inline-block;
         align-self:auto;
         margin-top: 50px;
@@ -14,12 +14,22 @@
         align-items: center;
         text-align: center;
          margin: auto;
-        display: inline-block;
+        display: inline;
+        
     }
 
     button.ques{
-        background-color:lightblue;
+        background-color:transparent;
       font-family: 'Times New Roman', Times, serif;
+      justify-content: center;
+        align-items: center;
+        text-align: center;
+         margin: auto;
+        display: flex;
+        display:grid;
+        display: inline;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     #bounding-box {
@@ -29,8 +39,15 @@
     }
 
     button.res{
-        background-color:lightgreen;
+        background-color:transparent;
         font-family: 'Times New Roman', Times, serif;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+          margin: auto;
+         display: flex;
+         display:grid;
+         display: inline;
     }
 
     h2{
@@ -42,6 +59,7 @@
 
    h1{
         padding: 10px;
+        font-size:xx-large;
         margin-top: 30px;
         margin-bottom: 50px;
         font-family: 'Times New Roman', Times, serif;
@@ -157,6 +175,7 @@ margin-left: 1;
     margin: auto;
     display: block;
     padding: 10px;
+  
   }
 
   .example-box{
@@ -166,7 +185,12 @@ margin-left: 1;
   }
 
   body{
-    background-image: url(https://wallpaperaccess.com/full/1771974.jpg);
+    background-image: url("https://cdn.pixabay.com/photo/2021/01/21/16/49/books-5937823__480.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+width :cover;
+margin-bottom: 50px;
   }
 
 input {
@@ -179,4 +203,18 @@ input {
   margin: auto;
   display: block;
   margin-top : 35px;
+}
+
+button.Sub{
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.mat-toolbar{
+background-color: transparent;
+}
+
+.example-list{
+background-color: transparent;
 }

@@ -3,7 +3,7 @@ button{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 50px;
-    border-radius: 10px;
+  
     display: inline-block;
     align-self:auto;
     margin-top: 50px;
@@ -12,8 +12,9 @@ button{
 }
 
 button.ques{
-    background-color:lightblue;
+    background-color:transparent;
   font-family: 'Times New Roman', Times, serif;
+ 
 }
 
 #bounding-box {
@@ -23,7 +24,7 @@ button.ques{
 }
 
 button.res{
-    background-color:lightgreen;
+    background-color:transparent;
     font-family: 'Times New Roman', Times, serif;
 }
 /* 
@@ -36,6 +37,8 @@ h2{
     margin-top: 30px;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font:bolder;
 }
 
 h1{
@@ -43,6 +46,9 @@ h1{
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    font:bolder;
+    color:white;
 }
 
 .drop-area {
@@ -155,7 +161,12 @@ font-family:'Times New Roman', Times, serif ;
 }
 
 body{
-background-image: url(https://wallpaperaccess.com/full/1771974.jpg);
+background-image: url("https://cdn.pixabay.com/photo/2022/01/22/01/54/bio-6956069__480.png");
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+width :cover;
+margin-bottom: 50px;
 }
 
 input {
@@ -169,3 +180,52 @@ input {
     display: block;
     margin-top : 35px;
   }
+
+  .example-list{
+    background-color: transparent;
+    }
+
+    .example-box{
+        background-color: transparent;
+        font-size:large;
+        font-display: bold;
+    }
+
+    button.Sub{
+        text-align: center;
+        margin: auto;
+        display: block;
+        font-style: none;
+        justify-content: center;
+      }
+
+    .example-container1{
+        background-color: transparent;
+        width:500px;
+        font-size:xx-large;
+        font-display: bold;
+      }
+
+      .example-container{
+        background-color:transparent;
+        width : auto;
+        text-align: center;
+        margin: auto;
+        display: block;
+        padding: 10px;
+      }
+
+      .mat-toolbar{
+        background-color:rgb(86, 140, 151);
+      }
+
+      h3{
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:large;
+        
+      }
+
+     

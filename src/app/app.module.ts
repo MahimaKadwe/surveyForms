@@ -24,8 +24,11 @@ import {MatRadioModule} from '@angular/material/radio';
 import { InputComponent } from './components/input/input.component';
 import { RadioComponent } from './components/radio/radio.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
-import { FormComponent } from './components/form/form.component';
 import { CstComponent } from './components/cst/cst.component';
+import { ConcludeComponent } from './components/conclude/conclude.component';
+import { TextFieldComponent } from './text-field/text-field.component';
+import { ResponseComponent } from './components/response/response.component';
+import { SettingComponent } from './components/setting/setting.component';
 
 @NgModule({
   declarations: [
@@ -41,9 +44,11 @@ import { CstComponent } from './components/cst/cst.component';
     InputComponent,
     RadioComponent,
     CheckboxComponent,
-    FormComponent,
     CstComponent,
-  
+    ConcludeComponent,
+    TextFieldComponent,
+    ResponseComponent,
+    SettingComponent,
   ],
   imports: [
     BrowserModule,

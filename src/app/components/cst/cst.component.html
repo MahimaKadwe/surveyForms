@@ -1,12 +1,12 @@
 
 <mat-toolbar>
-    <h1> Survey Forms </h1>
+    <h1> SURVEY FORMS </h1>
   </mat-toolbar>
   <body>
   <!-- <div class="container">
       <h1> MY FORMS </h1>  -->
-  <button class="ques" ng-click="customExpression"> RESPONSES </button>
-  <button class="res"> SETTINGS </button>
+  <button class="ques" ng-click="customExpression"><a routerLink="../response"> RESPONSES </a></button>
+  <!-- <button class="res"><a routerLink="../setting"> SETTINGS </a></button> -->
   
   <input type placeholder= "ENTER TITLE">
   
@@ -15,9 +15,9 @@
   
   <div cdkDropListGroup>
     <div class="example-container1">
-      <h2>Components</h2>
+      <h3>COMPONENTS</h3>
   
-      <div
+      <div 
         cdkDropList
         [cdkDropListData]="todo"
         class="example-list"
@@ -27,7 +27,7 @@
     </div>
   
     <div class="example-container">
-      <h2>Form</h2>
+      <h2>FORM</h2>
   
       <div
         cdkDropList
@@ -54,5 +54,5 @@
   </div>
   </div>
   
-  <button><a routerLink="../form"> SUBMIT </a></button>
+  <button class="Sub"><a routerLink="../conclude"> SUBMIT </a></button>
   </body>

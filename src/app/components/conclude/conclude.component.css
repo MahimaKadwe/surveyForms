@@ -1,0 +1,63 @@
+.container{
+    background-color:white;
+    size: auto;
+    text-align: center;
+        margin-top: 100px;
+        margin-bottom: center;
+        display: block;
+        justify-content: center;   
+
+}
+
+h1{
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    font:bolder;  
+    font-size: 35px;  
+}
+
+h2{
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font:bold;  
+    font-size: 25px; 
+}
+
+h3{
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font:bold;
+    font-size: 25px;
+}
+
+body{
+    background-color: lightsteelblue;
+    background-image: url("https://cdn.pixabay.com/photo/2022/03/23/10/50/sea-7086932__480.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    width :cover;
+    margin-bottom: 50px;
+}
+
+.mat-toolbar{
+    background-color: lightblue ;
+}
+
+.img{
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/22/11/59/thank-you-5077738__480.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    width :cover;
+    size : fit-content;
+}
