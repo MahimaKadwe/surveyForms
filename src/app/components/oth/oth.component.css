@@ -3,7 +3,6 @@ button{
   color: black;
   font-family: 'Times New Roman', Times, serif;
   margin-right: 50px;
- ;
   display: inline-block;
   align-self:auto;
   margin-top: 50px;
@@ -14,6 +13,10 @@ button{
 button.ques{
   background-color:transparent;
 font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+align-items: center;
+text-align: center;
+
 }
 
 #bounding-box {
@@ -25,6 +28,8 @@ font-family: 'Times New Roman', Times, serif;
 button.res{
   background-color:transparent;
   font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+align-items: center;
 }
 /* 
 button.set{
@@ -155,7 +160,7 @@ font-family:'Times New Roman', Times, serif ;
 }
 
 body{
-background-image: url("https://cdn.pixabay.com/photo/2020/03/26/10/58/norway-4970081__480.jpg");
+background-image: url("https://cdn.pixabay.com/photo/2017/01/13/18/56/feedback-1977986__480.jpg");
 background-size: cover;
   background-repeat: no-repeat;
   padding: 5px;

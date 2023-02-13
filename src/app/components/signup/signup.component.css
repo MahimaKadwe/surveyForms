@@ -12,11 +12,13 @@ body{
     padding: 5px;
     width :cover;
     margin-bottom: 50px;
+    border-radius: 5px;
+    border-color: black;
 }
 
     h1{
-        color : white;
-        padding: 5px;
+        color : black;
+        padding: 10px;
         text-align:left;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -73,3 +75,5 @@ routerLink{
     color:black;
     text-decoration: none;
 }
+
+

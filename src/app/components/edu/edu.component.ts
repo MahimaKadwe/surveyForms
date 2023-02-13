@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormArray } from '@angular/forms';
 import { FormGroup, FormBuilder, Validator, Form, Validators } from '@angular/forms';
 import { ITask } from 'src/app/model/task';
+import axios from 'axios';
 
 @Component({
   selector: 'app-edu',
@@ -25,6 +26,8 @@ export class EduComponent implements OnInit {
   // addvalue(val:any){
   //   this.values.push(val);
   // }
+  title: any;
+  description: any;
 
   // name:['textfield', 'mcq', 'singlechoice'];
     todoForm !: FormGroup;

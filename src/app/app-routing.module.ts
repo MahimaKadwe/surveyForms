@@ -12,7 +12,9 @@ import { CstComponent } from './components/cst/cst.component';
 import { ConcludeComponent } from './components/conclude/conclude.component';
 import { ResponseComponent } from './components/response/response.component';
 import { SettingComponent } from './components/setting/setting.component';
-
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { SigninComponent } from './components/signin/signin.component';
 
 const routes: Routes = [
  
@@ -74,6 +76,18 @@ const routes: Routes = [
   {path: 'tech', component: TechComponent},
   {path: '', redirectTo:'setting', pathMatch: 'full'},
   {path: 'setting', component: SettingComponent}, 
+  {path: 'home', component: HomeComponent},
+  {path: '', redirectTo:'signin', pathMatch: 'full'},
+  {path: 'signin', component: SigninComponent}, 
+  {path: 'home', component: HomeComponent},
+  {path: '', redirectTo:'login', pathMatch: 'full'},
+  {path: 'login', component: LoginComponent}, 
+  {path: 'signin', component: SigninComponent},
+  {path: '', redirectTo:'login', pathMatch: 'full'},
+  {path: 'login', component: LoginComponent}, 
+  {path: 'login', component: LoginComponent},
+  {path: '', redirectTo:'login', pathMatch: 'full'},
+  {path: 'signin', component: SigninComponent}, 
 ];
 
 @NgModule({

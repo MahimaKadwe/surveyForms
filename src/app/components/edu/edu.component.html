@@ -9,9 +9,9 @@
     <!-- <button class="res"><a routerLink="../setting"> SETTINGS </a></button> -->
 
 
-<div class = "Title"><input type placeholder= "ENTER TITLE"></div>
+<div class = "Title"><input name="title" type placeholder= "ENTER TITLE" [(ngModel)]= "title"></div>
 
-<div class = "Description"><input type placeholder= "ENTER DESCRIPTION"></div>
+<div class = "Description"><input name="description" type="text" placeholder= "ENTER DESCRIPTION" [(ngModel)]="description"></div>
 
 
 <div cdkDropListGroup>

@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 export class InputComponent {
   value = 'Clear me';
   constructor() { }
-
+  text :any;
   ngOnInit(): void {
 
   }

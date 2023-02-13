@@ -9,9 +9,9 @@
  
 
   
-<input type placeholder= "ENTER TITLE" >
+<input name="title" type placeholder= "ENTER TITLE" [(ngModel)]= "title" >
 
-<input type placeholder= "ENTER DESCRIPTION">
+<input name="description" type placeholder= "ENTER DESCRIPTION" [(ngModel)]= "description">
 
   <div cdkDropListGroup>
     <div class="example-container1">
@@ -45,14 +45,14 @@
             <button (click)="deleteTask(i)"><i class="fa fa-trash" aria-hidden="true"></i></button>
           
         
-          <app-input *ngIf="item === 'Input'"></app-input>
-          <app-radio *ngIf="item === 'Radio'"></app-radio>
-          <app-checkbox *ngIf="item === 'Checkbox'"></app-checkbox>
+          <app-input name="questions" *ngIf="item === 'Input'" [(ngModel)]= "questions"></app-input>
+          <app-radio name="questions" *ngIf="item === 'Radio'" [(ngModel)]= "questions"></app-radio>
+          <app-checkbox name="questions" *ngIf="item === 'Checkbox'" [(ngModel)]= "questions"></app-checkbox>
         </div>
       </div>
     </div>
   </div>
   </div>
   
-  <button class ="Sub"><a routerLink="../conclude"> SUBMIT </a></button>
+  <button class ="Sub"><a routerLink="../conclude" (click)="handleEdu($event)"> SUBMIT </a></button>
   </body>

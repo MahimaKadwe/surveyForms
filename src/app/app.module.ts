@@ -29,6 +29,11 @@ import { ConcludeComponent } from './components/conclude/conclude.component';
 import { TextFieldComponent } from './text-field/text-field.component';
 import { ResponseComponent } from './components/response/response.component';
 import { SettingComponent } from './components/setting/setting.component';
+import { LoginComponent } from './components/login/login.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { HomeComponent } from './components/home/home.component';
+// import {AuthServiceService} from '../../auth-service.service';
+import  {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,6 +54,9 @@ import { SettingComponent } from './components/setting/setting.component';
     TextFieldComponent,
     ResponseComponent,
     SettingComponent,
+    LoginComponent,
+    SigninComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,6 +71,7 @@ import { SettingComponent } from './components/setting/setting.component';
     MatCardModule,
     MatButtonModule, 
     MatRadioModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
